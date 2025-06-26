@@ -1,11 +1,11 @@
 # pg 数据库
---platform=linux/amd64 postgres:16
+--platform=linux/arm64 postgres:16
 # pdf处理工具
---platform=linux/amd64 frooodle/s-pdf:latest
+--platform=linux/arm64 frooodle/s-pdf:latest
 # n8n 自动化流程
---platform=linux/amd64 docker.n8n.io/n8nio/n8n
+--platform=linux/arm64 docker.n8n.io/n8nio/n8n
 # mcp管理
---platform=linux/amd64 samanhappy/mcphub
+--platform=linux/arm64 samanhappy/mcphub
 # dify 镜像
 --platform=linux/arm64 langgenius/dify-api:1.5.0
 --platform=linux/arm64 langgenius/dify-web:1.5.0
